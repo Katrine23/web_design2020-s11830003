@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    <meta name="description" content="Konsep dasar CSS" />
+<style>
+body {
+      background: pink;
+      color: #808080;
+      font-family: Arial;
+      font-size: 15px;
+    }
+		
+    <title>CSS Basic</title>
+</style>
+
+  </head>
+  <body>
+    <h1 style="colour: red">CSS Basic</h1>
+    <p> <code> tag mencakup global attributes,
+	 yang artinya tag tersebut dapat disisipkan 
+		semua attributes yang termasuk dalam global attributes
+			 yang secara umum berlaku untuk semua HTML tags. </p>
+
+  </body>
+</html>
