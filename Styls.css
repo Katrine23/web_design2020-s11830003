@@ -1,0 +1,31 @@
+body {font-size:13px}
+
+div{margin:auto;}
+.satu p {
+  width:200px;
+  line-height:18px;
+  margin:13px 0;
+  background-color:#999;
+  float:left;
+  margin-right:10px;
+}
+
+.dua p {
+  width:200px;
+  line-height:1.384615384615385em;
+  margin:1.00000em 0;
+  background-color:#CC6;
+  float:left;
+  margin-right:10px;
+  
+}
+
+.tiga p {
+    width:200px;
+    line-height:1.2rem;
+    margin:0.9rem 0;
+    background-color: #232;
+    float:left;
+    margin-right:10px;
+    
+  }
