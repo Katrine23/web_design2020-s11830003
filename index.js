@@ -70,6 +70,7 @@ function hitung() {
 	}else {
 		keterangan = "Kurus, Kekurangan berat badan tingkat berat";
 	}
+	
 	document.getId('keterangan').innerHTML = keterangan;
 	document.getId('bmi').innerHTML = "Hasil perhitungan BMI : " + bmi.toFixed(1);
 }
