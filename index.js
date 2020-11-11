@@ -57,8 +57,7 @@ function hitung() {
 	tinggi /= 100;
 	berat = parseFloat(document.getId("in_put").value);
 	bmi = berat / (tinggi * tinggi);
-	
-	
+
 	if (bmi > 27) {
 		keterangan = "Gemuk, Kelebihan berat badan tingkat berat";
 	}else if ((bmi >= 25.1) & (bmi <= 27)){
@@ -70,7 +69,7 @@ function hitung() {
 	}else {
 		keterangan = "Kurus, Kekurangan berat badan tingkat berat";
 	}
-	
-	document.getId('keterangan').innerHTML = keterangan;
 	document.getId('bmi').innerHTML = "Hasil perhitungan BMI : " + bmi.toFixed(1);
+	document.getElementById('keterangan').innerHTML = keterangan;
 }
+
